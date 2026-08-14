@@ -15,15 +15,15 @@
 %global install_dir     /opt/%{name}
 
 Name:           antigravity-ide
-Version:        2.5.2
+Version:        2.5.5
 Release:        1%{?dist}
 Summary:        Google Antigravity IDE — An agentic AI development platform
 License:        LicenseRef-Google-Antigravity
 URL:            https://antigravity.google/
 
 # The tarballs are downloaded at build time via the .copr/Makefile
-# URL_X64:        https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.5.2-6697361355964416/linux-x64/Antigravity%20IDE.tar.gz
-# URL_ARM64:      https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.5.2-6697361355964416/linux-arm/Antigravity%20IDE.tar.gz
+# URL_X64:        https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.5.5-4923483625488384/linux-x64/Antigravity%20IDE.tar.gz
+# URL_ARM64:      https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.5.5-4923483625488384/linux-arm/Antigravity%20IDE.tar.gz
 Source0:        Antigravity-x64.tar.gz
 Source1:        Antigravity-arm64.tar.gz
 
@@ -186,6 +186,8 @@ chmod 4755 %{buildroot}%{install_dir}/chrome-sandbox 2>/dev/null || true
 
 # ============================================================================
 %changelog
+* Fri Aug 14 2026 Automated Update <antigravity-ide-rpm@users.noreply.github.com> - 2.5.5-1
+- Update to upstream version 2.5.5
 * Thu Aug 13 2026 Automated Update <antigravity-ide-rpm@users.noreply.github.com> - 2.5.2-1
 - Update to upstream version 2.5.2
 * Tue Jul 28 2026 Community Maintainer <antigravity-ide-rpm@users.noreply.github.com> - 2.1.1-2
