@@ -6,7 +6,7 @@ First off, thank you for considering contributing to this community project! It'
 
 Please note: **This repository only contains the packaging scripts for Fedora.**
 
-- If you have an issue with the packaging itself (e.g., installation fails, desktop entry is missing, CLI wrapper is broken), you are in the right place! Please [open an issue](https://github.com/pehlivanu/antigravity-ide-rpm/issues).
+- If you have an issue with the packaging itself (e.g., installation fails, desktop entry is missing, CLI wrapper is broken), you are in the right place! Please [open an issue](https://github.com/liviuionesi/antigravity-ide-rpm/issues).
 - If you have an issue with the Antigravity IDE application itself (e.g., a bug in the code editor, an agent feature not working), please report it to Google directly. We cannot fix bugs in the proprietary binary.
 
 ## How the Automation Works
@@ -35,7 +35,7 @@ sudo dnf install rpm-build rpmdevtools curl spectool
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/pehlivanu/antigravity-ide-rpm.git
+   git clone https://github.com/liviuionesi/antigravity-ide-rpm.git
    cd antigravity-ide-rpm
    ```
 

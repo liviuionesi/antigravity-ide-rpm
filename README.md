@@ -1,7 +1,7 @@
 # Antigravity IDE — Fedora RPM (COPR)
 
 [![Copr build status](https://copr.fedorainfracloud.org/coprs/pehlivanu/antigravity-ide/package/antigravity-ide/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/pehlivanu/antigravity-ide/)
-[![Daily Update Check](https://github.com/pehlivanu/antigravity-ide-rpm/actions/workflows/check-update.yml/badge.svg)](https://github.com/pehlivanu/antigravity-ide-rpm/actions/workflows/check-update.yml)
+[![Daily Update Check](https://github.com/liviuionesi/antigravity-ide-rpm/actions/workflows/check-update.yml/badge.svg)](https://github.com/liviuionesi/antigravity-ide-rpm/actions/workflows/check-update.yml)
 
 Unofficial community RPM packaging of [Google Antigravity IDE](https://antigravity.google) for Fedora. Enables native installation and automatic updates via `dnf`.
 
